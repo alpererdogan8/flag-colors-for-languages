@@ -4,7 +4,7 @@
   "description": "HEX codes corresponding to the colors of programming languages",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/alpererdogan8/flag-colors-for-languages/issues"
   },
-  "homepage": "https://github.com/alpererdogan8/flag-colors-for-languages#readme"
+  "homepage": "https://github.com/alpererdogan8/flag-colors-for-languages#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
