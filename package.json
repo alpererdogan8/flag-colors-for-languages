@@ -1,0 +1,28 @@
+{
+  "name": "flag-color-for-languages",
+  "version": "0.1.0",
+  "description": "HEX codes corresponding to the colors of programming languages",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpererdogan8/flag-colors-for-languages.git"
+  },
+  "keywords": [
+    "colors",
+    "color",
+    "programming",
+    "languages",
+    "flag",
+    "frameworks",
+    "libraries"
+  ],
+  "author": "Alper Erdogan <me@alpererdogan.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpererdogan8/flag-colors-for-languages/issues"
+  },
+  "homepage": "https://github.com/alpererdogan8/flag-colors-for-languages#readme"
+}
