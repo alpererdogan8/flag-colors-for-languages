@@ -1,5 +1,23 @@
 type HEXCODE<T extends string> = `#${T}`;
-const SoftwareColors: Readonly<Record<string, HEXCODE<string>>> = {
+
+enum ProgrammingName {
+  TypeScript = "TypeScript",
+  JavaScript = "JavaScript",
+  HTML = "HTML",
+  CSS = "CSS",
+  React = "React",
+  Vue = "Vue",
+  Angular = "Angular",
+  Ruby = "Ruby",
+  Python = "Python",
+  Shell = "Shell",
+  DockerFile = "DockerFile",
+  C_Sharp = "C_Sharp",
+  C_Plus_Plus = "C_Plus_Plus",
+  Java = "Java",
+}
+
+const SoftwareColors: Readonly<Record<ProgrammingName, HEXCODE<string>>> = {
   TypeScript: "#3178C6",
   JavaScript: "#F1E05A",
   HTML: "#E34C26",
