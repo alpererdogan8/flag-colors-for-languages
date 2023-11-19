@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 type HEXCODE<T extends string> = `#${T}`;
 const SoftwareColors: Readonly<Record<string, HEXCODE<string>>> = {
   TypeScript: "#3178C6",
