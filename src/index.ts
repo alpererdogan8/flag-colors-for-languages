@@ -15,7 +15,7 @@ enum ProgrammingName {
   Java = "Java",
 }
 
-const SoftwareColors: Readonly<Record<ProgrammingName, string>> = {
+const SoftwareColors: Record<ProgrammingName, string> = {
   TypeScript: "#3178C6",
   JavaScript: "#F1E05A",
   HTML: "#E34C26",
