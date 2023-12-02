@@ -1,5 +1,3 @@
-type HEXCODE<T extends string> = `#${T}`;
-
 enum ProgrammingName {
   TypeScript = "TypeScript",
   JavaScript = "JavaScript",
@@ -17,7 +15,7 @@ enum ProgrammingName {
   Java = "Java",
 }
 
-const SoftwareColors: Readonly<Record<ProgrammingName, HEXCODE<string>>> = {
+const SoftwareColors: Readonly<Record<ProgrammingName, string>> = {
   TypeScript: "#3178C6",
   JavaScript: "#F1E05A",
   HTML: "#E34C26",
