@@ -1,6 +1,6 @@
 {
   "name": "flag-color-for-languages",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "HEX codes corresponding to the colors of programming languages",
   "main": "dist/index.js",
   "scripts": {
